@@ -12,7 +12,7 @@ public class Principal {
 		while(opc != 9) {
 			opc = Integer.parseInt(JOptionPane.showInputDialog("Escolha:\n1 - Mostrar o IP\n2 - Mostrar Ping\n9 - FIM "));
 			switch(opc) {
-			//Método 
+			//Método 1
 			case 1:
 			 String processIP = "IPCONFIG";
 			 redcon.ip(processIP);
